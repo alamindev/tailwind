@@ -5,7 +5,7 @@
         <div class="flex justify-start items-center ">
           <a href="#" class="flex-shrink-0">
             <span class="sr-only">Workflow</span>
-            <img class="h-8 w-auto sm:h-16" src="logo.png" alt="logo.png">
+            <img class="h-8 w-auto sm:h-16" src="/logo.png" alt="logo.png">
           </a> 
           <nav :class="isOpen ? '!right-0' : ''" ref="el" class="ml-10 lg:static fixed bottom-0 dark:bg-brand-dark lg:dark:bg-transparent bg-white lg:bg-transparent h-full w-72 lg:w-auto z-40 right-[-999px] transition-all duration-300 top-0 p-4 lg:p-0">  
            <ul class="flex flex-col lg:flex-row gap-4 lg:gap-8 pt-28 lg:pt-0">
